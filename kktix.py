@@ -56,7 +56,7 @@ while True:
             if getToken['result'] == 'TICKET_SOLD_OUT':
                 continue     
             elif getToken['result'] == 'CAPTCHA_WRONG_ANSWER':
-                capsolver.api_key = "CAP-4DB5F8F3C3FD7F7A7E3D2D72857705C3"
+                capsolver.api_key = ""
                 '''
                 solution = capsolver.solve({
                             "type": "ReCaptchaV3EnterpriseTaskProxyless",
